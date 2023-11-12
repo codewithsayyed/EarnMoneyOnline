@@ -16,7 +16,7 @@ a {
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 34px;
     text-transform: uppercase;
     letter-spacing: 4px;
   }
@@ -24,21 +24,28 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
-    height: 10vh;
+    font-family:;
+    background: #E2E8F6;
+    height: 12vh;
   }
   
   .nav-list {
     list-style: none;
     display: flex;
   }
+  .nav-list li a{
+    color: #012970 !important;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
   
   .nav-list li {
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-left: 32px;
-    margin-top: 32px;
+    margin-top: 18px;
+    
   }
   
   .mobile-menu {
@@ -112,6 +119,8 @@ a {
   /*  Hero Section Starts Here   */
   #hero{
     background-attachment: fixed;
+    background-size: cover;
+    vertical-align: middle;
     background-image: url(../img/hero-bg.png);
     background-repeat: no-repeat;
     height:88vh;
@@ -136,6 +145,88 @@ h1{
   font-weight: 500;
  
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.title2,.para{
   font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.title{
+  color: #012970;
+  font-weight: 700;
+  font-size:35px;
+}
+.property{
+
+  list-style: none;
+  font-size: 18px;
+
+}
+
+.property li{
+  margin: 20px ;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+.contact-btn{
+  background-color: #ff1749 !important;
+  border: none;
+  padding: 12px 24px;
+  font-size: 12px;
+  font-size: 0.8rem;  
+  letter-spacing: 2px;  
+  font-size: 20px;
+/*  border-radius: 0px;*/
+cursor: pointer;
+justify-content: center;
+
+}
+.btn {
+  border: none;
+  text-decoration: none !important;
+  padding: 12px 24px;
+/*    font-size: 12px;*/
+  font-size: 1.5rem;  
+  letter-spacing: 2px;  
+  cursor: pointer;
+
+}
+.contact-btn {
+  color: #fff !important;
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
+}
+
+.contact-btn:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9) ;
+  background-color: #64d6f4 !important;
+  color: #fff;
+  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+  transition: all .3s ease;    
+}
+.contact-btn : hover{
+scale: 10;
+}
+
+
+
+/*social-media section*/
+
+#social-media{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.social-icons img{
+	width: 60px;
+	transition: 0.5s;
+
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
 }
