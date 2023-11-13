@@ -137,11 +137,11 @@ a {
 h1{
   color: #ffbe0b;
   font-weight: 700;
-  font-size:72px;
+  font-size:calc(2.5rem + .8vw);
 }
 .hero h3{
   color: #444444;
-  font-size: calc(1.3rem + .6vw);
+  font-size: calc(0.9rem + .4vw);
 }
 
 .hero h3 b{
